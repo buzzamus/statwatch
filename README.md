@@ -1,3 +1,3 @@
 # Statwatch
 
-### A basic app for checking your Overwatch stats
+### A basic app for checking your Fortnite stats
