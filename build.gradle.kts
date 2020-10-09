@@ -16,6 +16,7 @@ repositories {
 }
 
 dependencies {
+	implementation(group = "io.github.rybalkinsd", name = "kohttp", version = "0.12.0")
 	implementation("org.springframework.boot:spring-boot-starter-mustache")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
