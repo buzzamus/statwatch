@@ -12,4 +12,10 @@ class HtmlController {
         model["title"] = "Statwatch"
         return "statwatch"
     }
+
+    @GetMapping("/lookup")
+    fun lookup(model: Model): String {
+        model["title"] = "Stat lookup"
+        return "lookup"
+    }
 }
